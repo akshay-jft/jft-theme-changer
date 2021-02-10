@@ -171,7 +171,7 @@ a{
 }
 @media(max-width:600px){
     .component h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .brand-name{
         font-size: 17px;
@@ -262,11 +262,18 @@ a{
 }
 .aboutus.dark{
     background-color: black;
-    color: #ff8c00;
+    color: #FFD700;
     transition: all 0.8s ease;
 }
 @media(max-width:768px){
     .division-grid{
         grid-template-columns: 100%;
+    }
+    .nav{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .brand{
+        margin-bottom: 20px;
     }
 }
